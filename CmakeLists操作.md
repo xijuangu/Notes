@@ -1,4 +1,5 @@
-```最常用的指令
+# 最常用的指令
+```
   # 本CMakeLists.txt的project名称
   # 会自动创建两个变量，PROJECT_SOURCE_DIR和PROJECT_NAME
   # ${PROJECT_SOURCE_DIR}：本CMakeLists.txt所在的文件夹路径
