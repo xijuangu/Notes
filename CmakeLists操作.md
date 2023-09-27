@@ -1,5 +1,8 @@
-### 最常用的指令
-```
+# CmakeLists学习笔记
+
+## 最常用的指令
+
+```c++
   # 本CMakeLists.txt的project名称
   # 会自动创建两个变量，PROJECT_SOURCE_DIR和PROJECT_NAME
   # ${PROJECT_SOURCE_DIR}：本CMakeLists.txt所在的文件夹路径
@@ -39,8 +42,9 @@
   target_link_libraries(库文件名称/可执行文件名称 链接的库文件名称)
 ```
 
-### 基本结构
-```
+## 基本结构
+
+```c++
 project(xxx)                                          #必须
 
 add_subdirectory(子文件夹名称)                         #父目录必须，子目录不必
@@ -53,3 +57,5 @@ link_directories(路径)                                 #必须
 
 target_link_libraries(库文件名称/可执行文件名称 链接的库文件名称)       #必须
 ```
+
+除了这些之外，就是些set变量的语句，if判断的语句，或者其他编译选项的语句，但基本结构都是这样的。
