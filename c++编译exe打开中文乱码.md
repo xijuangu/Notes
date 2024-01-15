@@ -7,8 +7,8 @@ __#include <windows.h>__
 __SetConsoleOutputCP(65001);__
 
 也即更改后的程序如下：
-``
-#include <iostream><br>
+```
+#include <iostream>
 #include <windows.h>  
 using namespace std;  
 int main()  
@@ -18,4 +18,4 @@ int main()
     system("pause");  
     return 0;  
 }
-``
+```
