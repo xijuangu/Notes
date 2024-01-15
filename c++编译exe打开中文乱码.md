@@ -7,7 +7,8 @@ __#include <windows.h>__
 __SetConsoleOutputCP(65001);__
 
 也即更改后的程序如下：
-``#include <iostream>
+``
+#include <iostream>
 #include <windows.h>
 using namespace std;
 int main()
@@ -16,4 +17,5 @@ int main()
     cout<<"这是中文"<<endl;
     system("pause");
     return 0;
-}``
+}
+``
