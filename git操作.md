@@ -22,20 +22,20 @@
 
 3. 其他命令：
   > 如果想要查看某一个远程仓库的更多信息，可以使用 ```git remote show <remote>```命令。 如果想以一个特定的缩写名运行这个命令，例如 ```origin```，会得到像下面类似的信息：  
-    ```
-    $ git remote show origin
-    * remote origin
-    Fetch URL: https://github.com/schacon/ticgit
-    Push  URL: https://github.com/schacon/ticgit
-    HEAD branch: master
-    Remote branches:
-        master                               tracked
-        dev-branch                           tracked
-    Local branch configured for 'git pull':
-        master merges with remote master
-    Local ref configured for 'git push':
-        master pushes to master (up to date)
-    ```
+  ```
+  $ git remote show origin
+  * remote origin
+  Fetch URL: https://github.com/schacon/ticgit
+  Push  URL: https://github.com/schacon/ticgit
+  HEAD branch: master
+  Remote branches:
+      master                               tracked
+      dev-branch                           tracked
+  Local branch configured for 'git pull':
+      master merges with remote master
+  Local ref configured for 'git push':
+      master pushes to master (up to date)
+  ```
 
   > 远程仓库的重命名与移除:  
   你可以运行 git remote rename 来修改一个远程仓库的简写名。 例如，想要将 pb 重命名为 paul，可以用 git remote rename 这样做：
