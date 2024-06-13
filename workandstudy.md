@@ -1,4 +1,4 @@
-# whatever recod it first
+# whatever record it first
 
 ### Questions
 
